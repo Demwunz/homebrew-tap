@@ -1,13 +1,13 @@
 class CcStatusline < Formula
   desc "Lightweight statusline for Claude Code showing context usage and costs"
   homepage "https://github.com/Demwunz/cc-statusline"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Demwunz/cc-statusline/releases/download/v0.4.0/cc-statusline-darwin-arm64"
-      sha256 "fbaaa57d5176765fdc5885752f5c35f9dea09452878006302d11a6f36473e16b"
+      url "https://github.com/Demwunz/cc-statusline/releases/download/v0.5.0/cc-statusline-darwin-arm64"
+      sha256 "bbf0a8bd746e6711243d092e7c6377e8ce74cfb08e08ecf796234b24b445efad"
 
       def install
         bin.install "cc-statusline-darwin-arm64" => "cc-statusline"
@@ -15,8 +15,8 @@ class CcStatusline < Formula
     end
 
     on_intel do
-      url "https://github.com/Demwunz/cc-statusline/releases/download/v0.4.0/cc-statusline-darwin-x86_64"
-      sha256 "1e6b00f56ece1931dde3ad6288703242e6146ab8a7bd9deb3cbebd826dd91950"
+      url "https://github.com/Demwunz/cc-statusline/releases/download/v0.5.0/cc-statusline-darwin-x86_64"
+      sha256 "49ef392f2f7709b25943f9280589a68b2297c2c145b26a869028f4e9221fb542"
 
       def install
         bin.install "cc-statusline-darwin-x86_64" => "cc-statusline"
